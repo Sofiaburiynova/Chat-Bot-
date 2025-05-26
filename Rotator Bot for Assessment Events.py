@@ -90,7 +90,7 @@ async def get_participants(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    app = ApplicationBuilder().token("7562272916:AAF_A_RZYDAbwkq4y8ldAvwZ1fDdtPYAo1k").build()
+    app = ApplicationBuilder().token("").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
