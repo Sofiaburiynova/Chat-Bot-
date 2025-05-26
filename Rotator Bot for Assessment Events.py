@@ -42,7 +42,7 @@ def generate_schedule(participant_count, rooms):
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет команда brainz 💚! Введите номера аудиторий через запятую (например: 101, 205, 310):")
+    await update.message.reply_text("Введите номера аудиторий через запятую (например: 101, 205, 310):")
     return ASK_ROOMS
 
 
